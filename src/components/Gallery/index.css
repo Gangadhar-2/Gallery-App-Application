@@ -1,0 +1,33 @@
+/* Write your code here. */
+
+.bg {
+  background-color: white;
+  min-height: 100vh;
+  padding: 10px;
+  font-family: 'Roboto';
+}
+
+.img-con {
+  width: 80%;
+  margin-bottom: 15px;
+}
+
+.img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.head {
+  font-size: 25px;
+}
+
+.list {
+  display: flex;
+}
+
+@media screen and (max-width: 769px) {
+  .list {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
